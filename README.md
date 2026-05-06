@@ -124,8 +124,8 @@ FlowSync IC/
 ---
 
 ## 📝 License
-This project is licensed under the **ISC License**.
+This project is exclusively built and owned by **Devesh Kumar TS**. All rights reserved.
 
 <div align="center">
-  <p><i>Built by the FlowSync IC Team.</i></p>
+  <p><i>Built by Devesh Kumar TS.</i></p>
 </div>
