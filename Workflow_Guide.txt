@@ -1,0 +1,60 @@
+=================================================
+FlowSync IC - Application Workflow Guide
+=================================================
+
+This guide explains the step-by-step process for how Managers and Engineers use the FlowSync IC web application.
+
+-------------------------------------------------
+ROLE: MANAGER
+-------------------------------------------------
+The Manager is responsible for creating tasks, assigning them, monitoring progress, and approving final work.
+
+Step 1: Create a New Block (Task)
+- Go to the "Blocks" page from the left sidebar.
+- Click the blue "+ New Block" button.
+- Fill out the block details (Name, Type, Tech Node, Complexity, etc.).
+- Click "🤖 AI Predict" to get an AI estimation of how many hours the task should take.
+- Click "Create Block".
+
+Step 2: Assign the Block to an Engineer
+- On the "Blocks" page, find the newly created block in the table.
+- Click the 👤 (Assign) icon on the right side of the row.
+- You can either use "🤖 AI Suggestions" (which recommends engineers based on skills and workload) or choose from "👥 All Engineers".
+- Click "Assign" next to the chosen engineer.
+
+Step 3: Monitor Progress
+- Check the "Dashboard" for a high-level overview of all active blocks, risks, and pending approvals.
+- Use the "Analytics" page to see detailed charts on engineer performance, efficiency, and weekly progress.
+
+Step 4: Approve Completed Work
+- When an engineer finishes a block and submits it, you will receive a notification.
+- Go to the "Approvals" page.
+- Review the submitted block details.
+- Click "Approve" if the work is good, or "Reject" to send it back. Approving the block automatically moves it to the "Completed" stage and updates the engineer's stats.
+
+
+-------------------------------------------------
+ROLE: ENGINEER
+-------------------------------------------------
+The Engineer is responsible for executing the assigned tasks and moving them through the design verification workflow.
+
+Step 1: View Assigned Work
+- Log into the application.
+- Check the "Dashboard" or "Notifications" page to see newly assigned blocks.
+- Navigate to the "Kanban Board" to see your active workflow.
+
+Step 2: Start Working on a Block
+- On the "Kanban Board", locate your assigned block in the "Not Started" column.
+- Click the block card to open its details.
+- Click the "▶ Start" button to indicate you have begun working. The block will automatically move to the "In Progress" column.
+
+Step 3: Progress Through Verification Stages
+- As you complete different stages of the IC layout process, open the block on the Kanban board and click the respective transition buttons:
+  * Click "→ DRC" (Design Rule Check) when you start DRC.
+  * Click "→ LVS" (Layout Versus Schematic) when you move to LVS verification.
+  
+Step 4: Submit for Final Review
+- Once the layout is completely clean (DRC and LVS passed), click the block in the LVS column.
+- Click the "📤 Submit Review" button.
+- The block moves to the "Review" column and sends an approval request to the Manager.
+- You are done! Once the Manager approves it, your "Completed" count and performance metrics will automatically increase on the Analytics page.
