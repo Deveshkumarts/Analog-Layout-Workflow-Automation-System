@@ -1,7 +1,7 @@
 import { useAuth } from '../context/AuthContext';
 import { Navigate } from 'react-router-dom';
 
-const GOOGLE_AUTH_URL = '/api/auth/google';
+const GOOGLE_AUTH_URL = import.meta.env.VITE_API_URL ? `${import.meta.env.VITE_API_URL}/auth/google` : '/api/auth/google';
 
 export default function Login() {
   const { user } = useAuth();
