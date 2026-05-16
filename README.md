@@ -2,6 +2,9 @@
   <h1>🌊 FlowSync IC</h1>
   <p><b>Analog Layout Workflow Automation Platform</b></p>
   
+  [![Live Demo](https://img.shields.io/badge/Live_Demo-View_Project-success?style=for-the-badge)](https://flowsyncic.netlify.app/)
+  <br/><br/>
+  
   ![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
   ![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
   ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
